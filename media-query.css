@@ -1,0 +1,62 @@
+/*==================================
+||       RESPONSIVE WEB           ||
+==================================*/
+
+/*=== Un masure simple en général ===*/
+
+/* C'est pour les petits appareils comme la tablette PORTRAIT ou le smartphone LARGE; La taille est 600px et plus */
+@media only screen and (min-width: 600px) {
+
+/* Ecrirez le code du CSS */
+
+}
+
+/* C'est pour les petits appareils comme la tablette LANDSCAPE. La taille est 768px et plus */
+@media only screen (min-width: 768px) { 
+
+  /* Ecrirez le code du CSS */
+
+}
+
+/* C'est pour les tailles moyens des appareils comme l'ordinateur en HD Ready ou un portable (laptops). La taille est 992px et plus */
+@media only screen (min-width: 991px) { 
+
+  /* Ecrirez le code du CSS */
+
+}
+
+/* C'est pour les grands appareils comme l'ordinateur en HD 1080p. La taille est 1200px et plus */
+@media only screen (min-width: 1200px) { 
+
+  /* Ecrirez le code du CSS */
+
+}
+
+/*=== Un masure unique à la base par écran ===*/
+
+/* C'est pour les smartphones uniquement */
+@media only screen (max-width: 767px) { 
+
+  /* Ecrirez le code du CSS */
+
+}
+
+/* C'est pour les tablettes ou iPad unquement */
+@media only screen (min-width: 768px) and (max-width: 1024px) { 
+
+  /* Ecrirez le code du CSS */
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* Ecrirez le code du CSS */
+  
+}
+
+/* C'est pour les ordinateurs en HD Ready uniquement */
+@media only screen (min-width: 991px) and (max-width: 1199px) { 
+
+  /* Ecrirez le code du CSS */
+
+}
