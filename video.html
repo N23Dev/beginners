@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video</title>
+</head>
+<body>
+
+	<!-- Voici le code par Cedric -->
+	<video src="video.mp4" width="720" height="720" autoplay="false" controls="true"></video>
+
+	<!-- La syntaxe de base de la balise video est extrêmement simple -->
+	<video controls src="video.ogv">Ici, c'est la description alternative.</video>
+
+	<!-- On peut également proposer plusieurs sources dans plusieurs formats différents du vidéo dans un seul balise -->
+	<video width="1080" height="1920" controls="controls">
+		<source src="video.mp4" type="video/mp4" />
+		<source src="video.webm" type="video/webm" />
+		<source src="video.ogv" type="video/ogg" />
+		Ici, c'est la description alternative.
+	</video>
+
+
+	<!-- Tous les informations simplifiés sur la balise <video> se trouvent ces listes : 
+		- https://www.w3schools.com/html/html5_video.asp
+		- https://www.alsacreations.com/article/lire/1125-introduction-balise-video-html5-mp4-h264-webm-ogg-theora.html
+		- https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607438-la-video-et-laudio
+	-->
+
+	<!-- Pour partager les vidéos depuis Youtube : -->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/HzZxcfVn_08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<!-- Pour partager les vidéos depuis Viemo : -->
+	<iframe src="https://player.vimeo.com/video/88472081?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<p><a href="https://vimeo.com/88472081">GitHub for Windows &bull; A Quick Look</a> from <a href="https://vimeo.com/github">GitHub</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+	<!-- Support de l'intégration des videos depuis :
+		- Youtube : https://support.google.com/youtube/answer/171780?hl=fr
+		- Viemo : https://developer.vimeo.com/apis/oembed
+	-->
+
+</body>
+</html>
